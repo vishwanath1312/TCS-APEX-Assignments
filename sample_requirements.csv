@@ -1,0 +1,31 @@
+Requirement
+"As a user, I want to sign up with my mobile number and email so that I can create a new account."
+"As a customer, I want to view my transaction history so that I can monitor past payments."
+"As a manager, I want to export project status reports in PDF format so that I can share them with stakeholders."
+"As an admin, I want to approve leave requests submitted by employees so that the HR system stays updated."
+"As a user, I want to receive real-time notifications when my order is dispatched."
+"As a student, I want to upload my assignment file so that my instructor can review it."
+"As a user, I want to reset my password via an OTP sent to my phone so that I can regain access."
+"As an admin, I want to schedule daily database backups so that critical data is preserved."
+"As a doctor, I want to update patient prescriptions in the system for the next appointment."
+"As a user, I want to search for nearby service centers using location access."
+The system should respond to user actions within 2 seconds for all major operations.
+The application should support up to 5000 concurrent users without performance degradation.
+The platform must maintain 99.9% uptime availability during business hours.
+The mobile app should load the dashboard in less than 3 seconds on 4G networks.
+All sensitive data should be encrypted at rest and in transit using AES-256.
+The API gateway should process 100 requests per second without timeout errors.
+The system should auto-scale during high load periods to maintain responsiveness.
+The web application should support both light and dark themes for better usability.
+All modules should log events for audit tracking and compliance reporting.
+"The software should be compatible across Chrome, Edge, Safari, and Firefox browsers."
+The system should reject invalid login attempts after five consecutive failures.
+The application should display an error if a required form field is left blank.
+The system should not allow deletion of an active record without confirmation.
+The payment gateway should block expired or invalid credit cards during checkout.
+The API should return a 400 Bad Request error when a malformed payload is received.
+The application should prevent file uploads exceeding 20 MB in size.
+The system should show an appropriate error when the database connection is lost.
+The app should gracefully handle timeouts during external service calls.
+The software should log and report unhandled exceptions automatically.
+The system should restrict access to unauthorized users attempting to open admin pages.
